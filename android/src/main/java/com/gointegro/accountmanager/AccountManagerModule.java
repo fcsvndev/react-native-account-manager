@@ -159,4 +159,8 @@ public class AccountManagerModule extends ReactContextBaseJavaModule {
 		promise.resolve(result);
 		return;
 	}
+	@Override
+     	public boolean canOverrideExistingModule() {
+		return true;
+     	}
 }
